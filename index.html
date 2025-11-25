@@ -1,13 +1,29 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portalacademico</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portalacademico</title>
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <div class="login-aluno"><!--Div principal do login-->
+    <h1>login portal academico</h1>
+
+    <form action=""><!--Puxar banco de dados de login e colocar aqui -->
+      <input type="text" placeholder="Usuário" /> <!-- Campo para Nome de usuário-->
+      <input type="password" placeholder="Senha" /><!-- Campo para Senha-->
+      <button>Entrar</button>
+    </form>
+    
+    <p>Se ainda não tem cadastro, <a href="#">Clique aqui</a></p><!--Criar pagina de cadasstro -->
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
