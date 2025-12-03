@@ -1,33 +1,41 @@
-.login-aluno {
-  background-color: rgb(117, 68, 207);
-  padding: 20px;
-  border-radius: 10px;
-  margin: auto;
-  max-width: 600px;
-  min-width: auto;
-  max-height: 100vh;
-  min-height: auto;
-  text-align: center;
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: rgb(255, 254, 254);
 }
 
-.login-aluno form input {
-  width: 90%;
+.login-aluno {
+  width: 40vh;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #542A78 ;
+}
+
+.login-aluno h1, p, a {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.login-aluno input{
+  width: 100%;
   padding: 10px;
-  margin: 10px 0;
-  border: none;
+  margin: 10px -10px;
+  border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-.login-aluno form button {
-  background-color: #ffffff;
-  color: #000000;
+.login-aluno button {
+  width: 100%;
+  padding: 10px;
+  background-color: #77B7B4;
+  color: #fff;
   border: none;
-  padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.login-aluno h1 ,p, a{
-  text-decoration: none;
-  color: #ffffff;
-}
+/*#77B7B4
+#542A78*/
