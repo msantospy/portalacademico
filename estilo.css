@@ -1,41 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 body {
+  background-color: #000000;
+  width: 100%;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Playfair Display', serif;
-  background-color: rgb(255, 254, 254);
 }
 
 .login-aluno {
-  width: 40vh;
-  margin: auto;
-  padding: 30px;
-  border: 1px solid #ccc;
+  background-color: #fafafa;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #542A78 ;
+  margin: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 0px;
+  overflow: hidden;
 }
-
-.login-aluno h1, p, a {
+.titulo-login {
+  font-family: 'Playfair Display', serif;
+  color: #fffdfd;
+  background: linear-gradient(120deg, #77B7B4, #542A78);
   text-align: center;
-  margin-bottom: 20px;
-  color: #fff;
+  padding: 20px;
 }
 
-.login-aluno input{
-  width: 100%;
-  padding: 10px;
-  margin: 10px -10px;
+form {
+  padding: 18px;
+}
+.login{
+  margin-bottom: 8px;
+  padding-bottom: 18px;
+  position: relative;
+}
+
+.login label{
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.login input{
+ display: block;
+ width: 100%;
+ border-radius: 8px;
+ padding: 8px;
   border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
-.login-aluno button {
+.login p{
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  bottom: 8px;
+}
+
+.login button{
   width: 100%;
   padding: 10px;
-  background-color: #77B7B4;
-  color: #fff;
+  background-color: #542A78;
+  color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
+  font-size: 16px;
   cursor: pointer;
 }
-
-/*#77B7B4
-#542A78*/

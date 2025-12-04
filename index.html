@@ -5,33 +5,39 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="logo-videira" href="logo-videira.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-</style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+  </style>
 
   <title>portalacademico</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-  
 
   <div class="login-aluno"><!--Div principal do login-->
-    <h1>login portal academico</h1>
+    <section class="titulo-login"><!--Titulo do login-->
+      <h1>login portal academico</h1>
+    </section>
+    
+    <form id="form" class="cadastro">
 
-    <form action=""><!--Puxar banco de dados de login e colocar aqui -->
-      <label for="usuario">
-        <input id="usuario" type="text" placeholder="Usuário" /> <!-- Campo para Nome de usuário-->
-        <input type="password" placeholder="Senha" /><!-- Campo para Senha-->
-        <button>Entrar</button>
-      </label>
+      <div id="email" class="cadastro-login">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Insira seu email" /><!-- Campo para Nome de usuário-->
+        <p>Mensagem de erro</p>
+      </div>
+
+      <div id="senha" class="cadastro-login">
+        <label for="password">Senha</label>
+        <input id="password" type="password" placeholder="Insira sua senha" /><!-- Campo para Senha-->
+        <p>Mensagem de erro</p>
+      </div>
+
+      <button type="submit">Entrar</button>
+      
     </form>
-     
-    <p>Se ainda não tem cadastro, <a href="#">Clique aqui</a></p><!--Criar pagina de cadasstro -->
   </div>
-
-  <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>
